@@ -1,0 +1,28 @@
+@media all and (max-width: 1000px) {  
+  input,textarea{
+	  width:40%;
+  }
+  .profile {
+    float: left;
+    width: 50%;
+  }
+  .profile-text {
+    font-size: 13px;
+  }
+}
+
+@media all and (max-width: 670px) {
+ input,textarea{
+	  width:100%;
+	}
+  
+  .btn{
+	  width:100%;
+  .profile{
+    float: left;
+    width: 100%;
+	}
+  .profile-text {
+    font-size: 11px;
+	}
+}
