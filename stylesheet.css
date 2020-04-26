@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: roboto;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 1px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(75, 83, 85, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+.title {
+    color: #f3432f;
+}
+
+.header-left {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.header-right {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.header-right li{
+    float: left;
+    display: inherit;
+    margin: 0px 11px;
+    color: white;
+}
+
+.top-wrapper {
+    padding: 180px 0 180px 0;
+    background-image: url(https://archive.org/download/bg_slider/bg_slider.gif);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.top-wrapper h1{
+    font-family: roboto;
+    font-size: 70px;
+    letter-spacing: 2px;
+    color: #1bd4ec;
+    letter-spacing: 5px;
+}
+.top-wrapper h3{
+    font-family: roboto;
+    font-size: 35px;
+    color: #ffff;
+    letter-spacing: 3px;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 20px;
+    color: #1c9cad;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.learn {
+	  padding: center;
+    background-color: #ffff;
+}
+
+
+
+.message-wrapper{
+	background-image: url(http://polidruk-group.com/wp-content/uploads/2017/02/contact_us_background.jpg);
+	background-size:cover;
+	height:400px;
+}
+
+.heading{
+	text-align:center;
+	color:#f2f2f2;
+	padding:10px 0;
+}
+
+.message{
+	text-align:center;
+}
+
+.message p{
+	color:#fff;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Arial";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 1px;
+  margin: 0 auto;
+}
+
+
+.bagianextra1-wrapper {
+  padding-bottom: 40px;
+  background-color: #0E181A;
+  background-size: cover;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.heading h2 {
+  font-weight: bold;
+}
+
+.profile {
+  float: left;
+  width: 20%;
+}
+
+.profile-picture img {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  margin-top: 25px;
+  border-radius: 100px;
+}
+
+.profile-name p {
+  display: inline-block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #1bd4ec;
+  font-weight: bold;
+}
+
+.profile-text {
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+  width: 80%;
+}
+
+.btn-profile {
+  text-align: center;
+  margin: 5px 1px;
+  font-size: 12px;
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+.btn-profile p {
+	margin: 1x 0;
+	color: black;
+}
+
+.email {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.instagram {
+  background-color: #bb3385;
+}
+
+.btn {
+  padding: 5px 5px;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+input, textarea{
+  width:400px;
+  margin-top:4px;
+  margin-bottom:20px;
+  padding:8px;
+  font-size:12px;
+  border:1px solid #dee7ec;
+  box-sizing: border-box;
+  border-radius:4px;
+}
+
+.btn{
+	background-color: white;
+	padding: 2px 10px;
+	display: inline-block;
+	opacity: 0.8;
+	border-radius:8px;
+}
+
+.talk{
+	color: #1a1a1a;
+	background-color: #e6e6e6;
+	cursor: pointer;
+	box-shadow: 0 7px #999999;
+}
+
+.talk:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn:hover{
+	opacity:1;
+}
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #283747;
+}
+
+footer p {
+	color: white;
+}
+
+.footer-social {
+    float: right;
+    padding: 5px;
+}
+ul, li {
+    text-decoration: none;
+    padding: 10px;
+    list-style-type: none;
+    display: inline;
+}
+.footer-social li {
+    padding-right: 1px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+	transform: translate(0, 0);
+}
+.facebook{
+	background-color: #5499C7;
+	color: white;
+}
+.twitter {
+    background-color: #AED6F1;
+	color: white;
+	
+}
+.instagram {
+    background-color: #F1948A;
+	color: white;
+}
+
+.copy {
+background: #fff;
+text-align: center;
+padding: none;
+}
